@@ -20,99 +20,71 @@
     <!-- App Content -->
     <div class="flex-1 overflow-y-auto pt-12 px-6 pb-6 text-xs font-medium select-none scrollbar-hide">
       <!-- Header -->
-      <div class="flex justify-between items-baseline mb-6 mt-2">
-        <h2 class="text-3xl font-bold tracking-tight">Mon<span class="text-red-500 ml-0.5">•</span></h2>
+      <div class="flex justify-between items-center mb-8 mt-2">
+        <h2 class="text-2xl font-bold tracking-tight">XOXO</h2>
         <div class="text-gray-400 text-[10px] uppercase tracking-wide text-right leading-tight font-semibold">
-          December 9<br>2024
+          9:42 AM
         </div>
       </div>
 
-      <!-- Calendar Strip -->
-      <div class="flex justify-between mb-8 text-[10px] text-gray-400 font-semibold">
-        <div class="flex flex-col items-center gap-1.5">
-          <span class="w-7 h-7 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs">9</span>
-          <span class="text-black font-bold tracking-wide">MON</span>
+      <!-- AI Insights -->
+      <div class="space-y-4 mb-8">
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex items-center gap-2 mb-2">
+            <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+            <span class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold">Context</span>
+          </div>
+          <p class="text-sm leading-relaxed text-gray-900">
+            You have a meeting in 15 minutes. Traffic is light, but you should leave now.
+          </p>
         </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">10</span>
-          <span class="tracking-wide">TUE</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">11</span>
-          <span class="tracking-wide">WED</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">12</span>
-          <span class="tracking-wide">THU</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">13</span>
-          <span class="tracking-wide">FRI</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">14</span>
-          <span class="tracking-wide">SAT</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">15</span>
-          <span class="tracking-wide">SUN</span>
+
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex items-center gap-2 mb-2">
+            <div class="w-2 h-2 rounded-full bg-purple-500"></div>
+            <span class="text-[10px] text-gray-500 uppercase tracking-wide font-semibold">Proactive</span>
+          </div>
+          <p class="text-sm leading-relaxed text-gray-900">
+            Sarah's birthday is tomorrow. Would you like me to suggest a gift?
+          </p>
         </div>
       </div>
 
-      <!-- List -->
-      <div class="space-y-5">
-        <!-- Item 1 -->
-        <div class="flex items-center gap-4">
-          <span class="text-red-500 text-lg leading-none">✻</span>
-          <span class="font-semibold text-sm">Daria's 20th Birthday</span>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="flex items-center gap-4 justify-between group">
-          <div class="flex items-center gap-4">
-            <span class="text-yellow-500 text-lg leading-none">☀</span>
-            <span class="text-sm font-medium">Wake up</span>
+      <!-- Quick Actions -->
+      <div class="mb-6">
+        <h3 class="text-[10px] text-gray-400 uppercase tracking-wide font-semibold mb-3">Suggested Actions</h3>
+        <div class="space-y-2">
+          <div class="bg-white border border-gray-200 rounded-xl px-4 py-3 flex items-center justify-between">
+            <span class="text-sm font-medium">Start navigation</span>
+            <span class="text-gray-400">→</span>
           </div>
-          <span class="text-gray-300 font-medium">09:00</span>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[9px] font-serif italic">Aa</span>
-            <span class="text-sm font-medium">Design Crit</span>
+          <div class="bg-white border border-gray-200 rounded-xl px-4 py-3 flex items-center justify-between">
+            <span class="text-sm font-medium">Review prep notes</span>
+            <span class="text-gray-400">→</span>
           </div>
-          <span class="text-gray-300 font-medium">10:00</span>
         </div>
+      </div>
 
-        <!-- Item 4 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[10px] -rotate-90">✂</span>
-            <span class="text-sm font-medium">Haircut with Vincent</span>
+      <!-- Ambient Status -->
+      <div class="space-y-3">
+        <h3 class="text-[10px] text-gray-400 uppercase tracking-wide font-semibold">Ambient Awareness</h3>
+        <div class="flex items-center gap-3 text-gray-500">
+          <div class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center">
+            <span class="text-green-600 text-xs">✓</span>
           </div>
-          <span class="text-gray-300 font-medium">13:00</span>
+          <span class="text-sm">Calendar synced</span>
         </div>
-
-        <!-- Item 5 -->
-        <div class="flex items-center gap-4">
-          <span class="text-black border-[1.5px] border-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">✓</span>
-          <span class="text-sm font-medium line-through text-gray-400">Make pasta</span>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="flex items-center gap-4 text-gray-400">
-          <span class="border-[1.5px] border-dashed border-gray-300 rounded-full w-5 h-5"></span>
-          <span class="text-sm font-medium">Pushups x100</span>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="flex items-center gap-4 justify-between text-gray-400">
-          <div class="flex items-center gap-4">
-            <span class="text-purple-400 text-lg leading-none">☾</span>
-            <span class="text-black text-sm font-medium">Wind down</span>
+        <div class="flex items-center gap-3 text-gray-500">
+          <div class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center">
+            <span class="text-blue-600 text-xs">◉</span>
           </div>
-          <span class="text-gray-300 font-medium">21:00</span>
+          <span class="text-sm">Location aware</span>
+        </div>
+        <div class="flex items-center gap-3 text-gray-500">
+          <div class="w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center">
+            <span class="text-purple-600 text-xs">⚡</span>
+          </div>
+          <span class="text-sm">Learning preferences</span>
         </div>
       </div>
     </div>
